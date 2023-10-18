@@ -1,2 +1,22 @@
+@font-face {
+    font-family: "Lemon Tuesday";
+    src: url(Lemon\ Tuesday.woff) format("woff"),
+    url(Lemon\ Tuesday.otf)  format("truetype");
+
+}
+@font-face {
+    font-family: "Sunday Orange";
+    src: url(Sunday\ Orange.woff) format("woff"),
+    url(Sunday\ Orange.ttf)  format("truetype");
+
+}
+
+h2{
+    font-family: "Lemon Tuesday", Helvetica, Arial, sans-serif;font-size: 17px;
+}
+
+h3{
+    font-family: "Sunday Orange", Helvetica, Arial, sans-serif;
+}
 
 /* css */
