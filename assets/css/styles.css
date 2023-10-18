@@ -11,6 +11,20 @@
 
 }
 
+@font-face {
+    font-family: "Oswald";
+    src: url(Oswald.woff) format("woff"),
+    url(Oswald.ttf)  format("truetype");
+
+}
+
+@font-face {
+    font-family: "Grandesign";
+    src: url(Grandesign\ Neue\ Serif.woff) format("woff"),
+    url(Grandesign\ Neue\ Serif.ttf)  format("truetype");
+
+}
+
 h2{
     font-family: "Lemon Tuesday", Helvetica, Arial, sans-serif;font-size: 17px;
 }
@@ -22,5 +36,16 @@ h3{
 .blue-row {
     background-color: #090088;
     /* Add padding, margin, or other styles as needed */
+}
+.usability_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    font-family: Oswald; 
+    font-size: 40px;
+    padding: 60px; 
+    color: #090088
 }
 /* css */
