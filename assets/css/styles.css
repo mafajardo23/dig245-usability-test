@@ -48,4 +48,24 @@ h3{
     padding: 60px; 
     color: #090088
 }
+
+.task_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-family: Oswald; 
+    font-size: 40px;
+    color: #090088
+}
+
+hr {
+    /* color: #090088; */
+    border: 1px solid #090088;
+}
+
+.col-md-3.col-lg-4 img {
+    padding: 10px; 
+}
+
 /* css */
