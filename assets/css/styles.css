@@ -29,8 +29,9 @@ h2{
     font-family: "Lemon Tuesday", Helvetica, Arial, sans-serif;font-size: 17px;
 }
 
-h3{
-    font-family: "Sunday Orange", Helvetica, Arial, sans-serif;
+p {
+    font-family: Grandesign; 
+    font-size: 18px; 
 }
 
 .blue-row {
@@ -58,6 +59,16 @@ h3{
     font-size: 40px;
     color: #090088
 }
+
+.task_info {
+    padding:25px;  
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+    
 
 hr {
     /* color: #090088; */
