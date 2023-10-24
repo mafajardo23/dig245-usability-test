@@ -14,7 +14,7 @@
         <div class="row">
             <div class="container">
                 <div class="blue-row">
-                    <p style="font-family: Lemon Tuesday; font-size: 43px; text-align: center; color: white;">Levain Bakery</p>
+                    <p style="font-family: Lemon Tuesday; font-size: 40px; text-align: center; color: white;">Levain Bakery</p>
                 </div>
             </div>
         </div>
@@ -117,46 +117,51 @@
         <div class="col-12">
             <form action="#" id="myForm">
                 <p><label for="q1">I think that I would like to use this system frequently.</label></p>
-                <input type="number" class="form-control" value="4" name="q1" id="q1" min="1" max="5" required>
+                <input type="number" step="any" class="form-control" value="4" name="q1" id="q1" min="1" max="5" required>
 
                 <p><label for="q2">I found the system unnecessarily complex.</label></p>
-                <input type="number" class="form-control" value="1" name="q2" id="q2" min="1" max="5" required>
+                <input type="number" step="any" class="form-control" value="1" name="q2" id="q2" min="1" max="5" required>
 
                 <p><label for="q3">I thought the system was easy to use.</label></p>
-                <input type="number" class="form-control" value="5" name="q3" id="q3" min="1" max="5" required>
+                <input type="number" step="any" class="form-control" value="5" name="q3" id="q3" min="1" max="5" required>
 
                 <p><label for="q4">I need the support of a technical person to use this system.</label></p>
-                <input type="number" class="form-control" value="1" name="q4" id="q4" min="1" max="5" required>
+                <input type="number" step="any" class="form-control" value="1" name="q4" id="q4" min="1" max="5" required>
 
                 <p><label for="q5">I found the various functions in this system were well integrated.</label></p>
-                <input type="number" class="form-control" value="5" name="q5" id="q5" min="1" max="5" required>
+                <input type="number" step="any" class="form-control" value="5" name="q5" id="q5" min="1" max="5" required>
 
                 <p><label for="q6">I found too much inconsistency in this system.</label></p>
-                <input type="number" class="form-control" value="1" name="q6" id="q6" min="1" max="5" required>
+                <input type="number" step="any" class="form-control" value="1" name="q6" id="q6" min="1" max="5" required>
 
                 <p><label for="q7">I would imagine that most people would learn to use this system very quickly.</label></p>
-                <input type="number" class="form-control" value="4" name="q7" id="q7" min="1" max="5" required>
+                <input type="number" step="any" class="form-control" value="4" name="q7" id="q7" min="1" max="5" required>
 
                 <p><label for="q8">I found the system very cumbersome to use.</label></p>
-                <input type="number" class="form-control" value="1" name="q8" id="q8" min="1" max="5" required>
+                <input type="number" step="any" class="form-control" value="1" name="q8" id="q8" min="1" max="5" required>
 
                 <p><label for="q9">I felt very confident using the system.</label></p>
-                <input type="number" class="form-control" value="5" name="q9" id="q9" min="1" max="5" required>
+                <input type="number" step="any" class="form-control" value="5" name="q9" id="q9" min="1" max="5" required>
 
                 <p><label for="q10">I felt very confident using the system.</label></p>
-                <input type="number" class="form-control" value="4" name="q10" id="q10" min="1" max="5" required>
+                <input type="number" step="any" class="form-control" value="4" name="q10" id="q10" min="1" max="5" required>
             </form>
         </div>
     </div>
     <div class="row">
-        <button  type="submit" class="btn btn-primary" style="margin-bottom: 18px;" >Submit</button> 
+        <div class="col-5"></div>
+        <div class="col-2">
+        <button  type="submit" class="btn btn-primary" style="margin-top: 18px;  width: 100%; text-align: center; "  >Submit</button> 
+        </div>
     </div>
+    <div class="col-5"></div>
     <div class="row">
-        <div class="col-12 col-md-2">
-            <p>Usability Test Score:</p>
+        <div class="col-4"></div>
+        <div class="col-3 col-md-2">
+            <p style="margin-top: 20px;">Usability Test Score:</p>
         </div>
         <div class="col-12 col-md-2">
-            <input id="answer" style=" text-align: center;  margin-bottom: 18px;">
+            <input id="answer" style=" text-align: center;  margin-top: 20px; margin-bottom: px;">
         </div>
     </div>
    
