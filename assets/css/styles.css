@@ -32,11 +32,15 @@ h2{
 p {
     font-family: Grandesign; 
     font-size: 18px; 
+    line-height: 1.8;
 }
 
 .blue-row {
     background-color: #090088;
-    /* Add padding, margin, or other styles as needed */
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    
 }
 .usability_text {
     display: flex;
@@ -69,6 +73,7 @@ p {
     text-align: justify;
     font-family: Grandesign; 
     font-size: 18px; 
+    line-height: 1.8;
 }
     
 hr {
@@ -78,6 +83,10 @@ hr {
 
 .col-md-3.col-lg-4 img {
     padding: 10px; 
+}
+
+.row-1{
+    height: 90px;
 }
 
 /* css */
