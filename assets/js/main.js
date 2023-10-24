@@ -1,5 +1,7 @@
 
-let myForm = document.querySelector("#myForm");
+let myForm = document.querySelector("#myForm")
+// let answerInput = document.querySelector("#answer"); 
+
 myForm.addEventListener("submit", (event) => {
     event.preventDefault();
     let q1 = this.q1.value;
@@ -8,13 +10,16 @@ myForm.addEventListener("submit", (event) => {
     let q4 = this.q4.value;
     let q5 = this.q5.value;
     let q6 = this.q6.value;
-    let q7 = this.q4.value;
+    let q7 = this.q7.value;
     let q8 = this.q8.value;
     let q9 = this.q9.value;
     let q10 = this.q10.value;
      
-  let answer = (q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9 + q10) / 10;
-     console.log(answer);
+  let answer = (q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9 + q10) * 2.5;
+  document.querySelector('#answer').value = answer;
+  console.log(answer);
+  answerInput.value = answer;
+
 });
 
 
